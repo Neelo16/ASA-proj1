@@ -6,7 +6,7 @@ SOURCE=graph.c
 
 all: $(BIN)
 
-caracol: $(SOURCE)
+$(BIN): $(SOURCE)
 	$(CC) -o $(BIN) $(CFLAGS) $(SOURCE) $(LIBS)
 
 clean:
