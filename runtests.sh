@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TESTDIR=tests
-BIN=graph
+BIN=./graph
 
 echo "Compiling..."
 make
